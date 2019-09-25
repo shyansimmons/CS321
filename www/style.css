@@ -1,0 +1,330 @@
+
+/* Heading 1: Title */
+h1 {
+  font-size: 60px;
+  font-family: 'Baskerville Old Face', serif;
+  text-align: center
+}
+/* Heading 2: Blurb */
+h2 {
+  font-size: 20px;
+  font-family: 'Baskerville Old Face', serif;
+  text-align: center
+}
+
+/* ABOUT SECTION */
+/* Section positioning */
+.sec1{
+  float: left;
+  display: inline-block;
+}
+/* Dropdown position */
+.sec1 .about{
+  position: inherit;
+  top: 100%;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 100%
+  padding: 0;
+}
+/* Show dropdown link on hover */
+.sec1:hover .about{
+  display: block;
+}
+/* About button style*/
+.sec1 button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Rockwell', serif;
+    background: rgb(40, 193, 198);">rgb(255, 0, 0);
+    border: none;
+    padding: 0.4em 0.8em;
+    font-size: 15px;
+}
+/* Dropdown link style */
+.sec1 a {
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell', serif;
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0.4em 0.4em;
+    text-decoration: none; /* remove underline */
+    background-color: rgb(33, 148, 151);">rgb(255, 0, 0);
+}
+/* Link hover style */
+.sec1 a:hover{
+  color: black;
+  background-color: rgb(215, 215, 215);">rgb(255, 0, 0);
+}
+
+/*MINDFULNESS SECTION*/
+/* Section positioning */
+.sec2{
+  float: left;
+  display: inline-block;
+}
+/* Dropdown position */
+.sec2 .mindfulness{
+  position: inherit;
+  top: 100%;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 100%
+  padding: 0;
+}
+/* Show dropdown link on hover */
+.sec2:hover .mindfulness{
+  display: block;
+}
+/* Mindfulness button style*/
+.sec2 button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Rockwell', serif;
+    background: rgb(215, 125, 114);">rgb(255, 0, 0);
+    border: none;
+    padding: 0.4em 0.8em;
+    font-size: 15px;
+}
+/* Dropdown link style */
+.sec2 a {
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell', serif;
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0.4em 0.4em;
+    text-decoration: none; /* remove underline */
+    background-color: rgb(205, 89, 74);">rgb(255, 0, 0);
+}
+/* Link hover style */
+.sec2 a:hover{
+  color: black;
+  background-color: rgb(215, 215, 215);">rgb(255, 0, 0);
+}
+/* DIET SECTION*/
+/* Section positioning */
+.sec3{
+  float: left;
+  display: inline-block;
+}
+/* Dropdown position */
+.sec3 .diet{
+  position: inherit;
+  top: 100%;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 100%
+  padding: 0;
+  
+}
+/* Show dropdown link on hover */
+.sec3:hover .diet{
+  display: block;
+  
+}
+/* Diet button style*/
+.sec3 button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Rockwell', serif;
+    background: rgb(150, 192, 92);">rgb(255, 0, 0);
+    border: none;
+    padding: 0.4em 0.8em;
+    font-size: 15px;
+   
+}
+/* Dropdown link style */
+.sec3 a {
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell', serif;
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0.4em 0.4em;
+    text-decoration: none; /* remove underline */
+    background-color:rgb(107, 148, 56);">rgb(255, 0, 0);
+}
+/* Link hover style */
+.sec3 a:hover{
+  color: black;
+  background-color: rgb(215, 215, 215);">rgb(255, 0, 0);
+}
+/* EXERCISE SECTION*/
+/* Section positioning */
+.sec4{
+  float: left;
+  display: inline-block;
+}
+/* Dropdown position */
+.sec4 .exercise{
+  position: inherit;
+  top: 100%;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 100%
+  padding: 0;
+}
+/* Show dropdown link on hover */
+.sec4:hover .exercise{
+  display: block;
+}
+/* Exercise button style*/
+.sec4 button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Rockwell', serif;
+    background: rgb(230, 189, 81);">rgb(255, 0, 0);
+    border: none;
+    padding: 0.4em 0.8em;
+    font-size: 15px;
+}
+/* Dropdown link style */
+.sec4 a {
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell', serif;
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0.4em 0.4em;
+    text-decoration: none; /* remove underline */
+    background-color:rgb(215, 165, 30);">rgb(255, 0, 0);
+    z-index: 2;
+}
+/* Link hover style */
+.sec4 a:hover{
+  color: black;
+  background-color: rgb(215, 215, 215);">rgb(255, 0, 0);
+}
+/* SPIRITUALITY SECTION*/
+/* Section positioning */
+.sec5{
+  float: left;
+  display: inline-block;
+}
+/* Dropdown position */
+.sec5 .spirit{
+  position: inherit;
+  top: 100%;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 100%
+  padding: 0;
+}
+/* Show dropdown link on hover */
+.sec5:hover .spirit{
+  display: block;
+}
+/* Spirituality button style*/
+.sec5 button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Rockwell', serif;
+    background: rgb(202, 148, 223);">rgb(255, 0, 0);
+    border: none;
+    padding: 0.4em 0.8em;
+    font-size: 15px;
+}
+/* Dropdown link style */
+.sec5 a {
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell', serif;
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0.4em 0.4em;
+    text-decoration: none; /* remove underline */
+    background-color:rgb(176, 98, 207);">rgb(255, 0, 0);
+    z-index: 2;
+}
+/* Link hover style */
+.sec5 a:hover{
+  color: black;
+  background-color: rgb(215, 215, 215);">rgb(255, 0, 0);
+}
+  /* OTHER TIPS SECTION*/
+/* Section positioning */
+.sec6{
+  float: left;
+  display: inline-block;
+}
+/* Dropdown position */
+.sec6 .other{
+  position: inherit;
+  top: 100%;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 100%
+  padding: 0;
+}
+/* Show dropdown link on hover */
+.sec6:hover .other{
+  display: block;
+}
+/* Spirituality button style*/
+.sec6 button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Rockwell', serif;
+    background:rgb(242, 159, 83);">rgb(255, 0, 0);
+    border: none;
+    padding: 0.4em 0.8em;
+    font-size: 15px;
+}
+/* Dropdown link style */
+.sec6 a {
+    text-align: center;
+    color: white;
+    font-family: 'Rockwell', serif;
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0.4em 0.4em;
+    text-decoration: none; /* remove underline */
+    background-color:rgb(237, 124, 22);">rgb(255, 0, 0);
+
+}
+/* Link hover style */
+.sec6 a:hover{
+  color: black;
+  background-color: rgb(215, 215, 215);">rgb(255, 0, 0);
+
+}
+/* Definition wrapper*/
+.def-wrapper {
+  width: 960px;
+  display: inline-block;
+  position: absolute;
+  left: 3%;
+  font-size: 30px;
+  font-family: 'Perpetua', serif;
+  border-style: solid;
+  border-color: black;
+  padding: 35px;
+  margin: 120px;
+  z-index: 1;
+}
